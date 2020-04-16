@@ -1,0 +1,31 @@
+This project allows users to search for books from a database using SQL. It uses AJAX to update the author list as the user types in letters. AJAX is also used to dynamically add the search
+results to index.php (the home page)
+
+Features added:
+-Site layout, 2 columns.
+-AJAX supported clock, utilizing jQuery
+-AJAX supported search results, utilizing jQuery
+-AJAX supported author filter, utilizing jQuery
+-Author list, with a 'more' button to show all authors. (BONUS)
+-SQL input is sanitized, so only items typed will be looked for. Enforces security related to SQL injection attacks.
+-AJAX supported that will dynamically resize based on the users keystrokes. (BONUS) 
+-Allows users to search books based on Title, Author name, or Catargory Name
+-Each search result is dynamically queried based on what the user has entered
+-Displays the search results in a custom table with Price, Title, a shortened description, and the picture of the book.
+-When the book is clicked, it shows ALL the information of the book, including ISBN, pubilsher, full description etc.
+-The detailed book link contains a hyperlink of the author, which will bring the user to a page that displays all the books that author have made that are in the database.
+-There is a counter at the top for the number of results that gets displayed (BONUS)
+-The returns the user to the homepage
+-The 'email' in the footer, will load up whatver your systems mailing server is, and automatically types in the email.
+-Has a QuickBrowse section on the right area to have quick links to common categories
+-Has another search bar in that section
+-Header is used for navigation around the page, on all areas of the website.
+-Form validation on the 'Contact' page, including area code and email, using regex.
+-Displays name and email for the user upon completion of the 'contact' form.
+-Footer on all pages that contain (fake, except for the email) information about the company. (Look at the Address for a fun name:)
+-Company logo
+-MUCH MORE details I may have missed (styling, hyperlinks etc) :)
+
+
+I understand that the styling of the webpage is quite poor. Understand that I am a very "uncreative" person, so styling is naturally difficult for me. Given time constraints, I was not able
+to get it as aestheticly pleasing as I would have hoped for.
